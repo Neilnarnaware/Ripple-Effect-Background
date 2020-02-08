@@ -3,11 +3,11 @@
 Three steps to include a Ripple Effect Background in the application: 
 
 Create a new Java Class: 
-(Code included in the Ripple Background.java)
+       (Code included in the Ripple Background.java)
 
 In the XML Layout: 
 
- <com.deeplin.synapses.RippleEffect
+       <com.deeplin.synapses.RippleEffect
             android:id="@+id/rippleEffect"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -32,4 +32,4 @@ In the XML Layout:
         
 In the Main Activity:
 
-rippleBackground.startRippleAnimation();
+         rippleBackground.startRippleAnimation();
